@@ -35,6 +35,10 @@ article.card {
     box-shadow: 0px var(--space-md) var(--space-md) rgba(0, 0, 0, 0.08);
 }
 
+@media screen and (min-width: 376px) {
+    article.card { max-width: 300px; }
+}
+
 article.card img {
     width: 100%;
     border-radius: 1rem;
