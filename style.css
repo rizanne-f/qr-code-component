@@ -1,0 +1,66 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Slate-300: hsl(212, 45%, 89%);
+    --Slate-500: hsl(216, 15%, 48%);
+    --Slate-900: hsl(218, 44%, 22%);
+    --fs-header: 20px;
+    --fs-paragraph: 15px;
+    --fw-regular: 400;
+    --fw-bold: 700;
+    --space-sm: 1rem;
+    --space-md: 1rem; 
+    --space-lg: 1.5rem;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: var(--Slate-300);
+    height: 100vh;
+    padding: var(--space-lg);
+    display: grid;
+    place-content: center;
+    place-items: center;
+}
+
+article.card {
+    background-color: var(--White);
+    padding: var(--space-sm);
+    border-radius: 1rem;
+    box-shadow: 0px var(--space-md) var(--space-md) rgba(0, 0, 0, 0.08);
+}
+
+article.card img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+article .card-body {
+    text-align: center;
+    padding: var(--space-md);
+}
+
+article .card-body > header {
+    color: var(--Slate-900);
+    font-size: var(--fs-header);
+    font-weight: var(--fw-bold);
+    margin-bottom: var(--space-sm);
+}
+
+article .card-body > p {
+    color: var(--Slate-500);
+    font-size: var(--fs-paragraph);
+}
+
+footer, a { color: var(--Slate-500); }
+
+footer {
+    font-size: var(--fs-paragraph);
+    text-align: center;
+    padding: var(--space-lg);
+}
