@@ -32,7 +32,7 @@ article.card {
     background-color: var(--White);
     padding: var(--space-sm);
     border-radius: 1rem;
-    box-shadow: 0px var(--space-md) var(--space-md) rgba(0, 0, 0, 0.08);
+    box-shadow: 0 16px 16px rgba(0, 0, 0, 0.08);
 }
 
 @media screen and (min-width: 376px) {
