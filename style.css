@@ -21,7 +21,7 @@
 body {
     font-family: "Outfit", sans-serif;
     background-color: var(--Slate-300);
-    height: 100vh;
+    min-height: 100vh;
     padding: var(--space-lg);
     display: grid;
     place-content: center;
@@ -36,7 +36,7 @@ article.card {
 }
 
 @media screen and (min-width: 376px) {
-    article.card { max-width: 300px; }
+    article.card { max-width: 320px; }
 }
 
 article.card img {

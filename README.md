@@ -35,12 +35,16 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-Using low value opacity in rgba color model to get a soft shadow.
-
+Low value opacity in rgba color model to get a soft shadow.
 ```css
 article.card {
   box-shadow: 0 16px 16px rgba(0, 0, 0, 0.08);
 }
+```
+
+`min-height: 100vh` instead of `height: 100vh` to allow the page to grow when necessary.
+```css
+body { min-height: 100vh; }
 ```
 
 ## Author
